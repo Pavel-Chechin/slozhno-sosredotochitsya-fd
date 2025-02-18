@@ -1,12 +1,12 @@
 :root.theme-dark {
-  --text-color: var(--color-pink-2);
-  --brand-color: var(--color-purple-1);
-  --secondary-color: var(--color-purple-2);
-  --secondary-color-o-40: var(--color-purple-2-o-40);
-  --accent-color: var(--color-purple-2);
-  --highlight-color: var(--color-black-1);
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --brand-color: #db00ff;
+  --highlight-color: #000028;
+  --secondary-color: #ff0070;
+  --secondary-color-o-40: #ff007040;
 
-  --page-background-color: var(--color-black-1);
+  --page-background-color: #000028;
   --page-background-image: url("../images/cover-image-dark.png");
 
   --rec-decor-visibility: visible;

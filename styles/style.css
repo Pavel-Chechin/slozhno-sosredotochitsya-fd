@@ -7,7 +7,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  background-color: var(--page-background-color);
+  background-color: var(--page-background-color, #000028);
   color: var(--text-color);
   font-family: var(--page-font-family), monospace;
   font-size: 18px;
