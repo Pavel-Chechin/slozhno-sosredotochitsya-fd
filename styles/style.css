@@ -148,7 +148,8 @@
 .header {
   align-items: start;
   display: grid;
-  min-block-size: 76.5vh;
+  min-block-size: 668px;
+  block-size: 100vh;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
@@ -217,7 +218,8 @@
 .footer {
   place-items: center;
   display: grid;
-  min-block-size: 76.5vh;
+  min-block-size: 668px;
+  block-size: 100vh;
   padding: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
@@ -267,7 +269,7 @@
 
   .header {
     padding-inline-start: 0;
-    min-block-size: 117vh;
+    min-block-size: 1024px;
   }
 
   .header__theme-menu {
@@ -286,7 +288,7 @@
   }
 
   .footer {
-    min-block-size: 117vh;
+    min-block-size: 1024px;
   }
 }
 
@@ -296,7 +298,7 @@
   }
 
   .header {
-    min-block-size: 88vh;
+    min-block-size: 768px;
   }
 
   .section {
@@ -319,6 +321,6 @@
   }
 
   .footer {
-    min-block-size: 88vh;
+    min-block-size: 768px;
   }
 }
