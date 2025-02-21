@@ -43,10 +43,11 @@
 
 .link {
   text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 1px solid var(--text-color);
 }
 
 .link:focus {
@@ -97,6 +98,10 @@
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
+}
+
+h4.title {
+  font-weight: 400;
 }
 
 .title-decor {
